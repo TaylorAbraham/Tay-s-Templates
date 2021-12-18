@@ -13,6 +13,7 @@ npm i -D typescript tsc-watch eslint @typescript-eslint/parser @typescript-eslin
 
 ```
 npm i -S dotenv node-fetch@2.0 firebase
+npm i -D @types/node-fetch@^2.0
 ```
 
 ## Sources
