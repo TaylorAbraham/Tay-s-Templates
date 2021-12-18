@@ -12,5 +12,5 @@ npm i -D typescript tsc-watch eslint @typescript-eslint/parser @typescript-eslin
 ### Optional Dependencies
 
 ```
-npm i -S node-fetch firebase
+npm i -S dotenv node-fetch firebase
 ```

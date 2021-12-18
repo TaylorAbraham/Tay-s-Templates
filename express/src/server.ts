@@ -4,6 +4,8 @@ import cors from 'cors';
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
+require('dotenv').config();
+
 /* SECTION: CORS */
 const allowedOrigins = ['https://localhost:8080'];
 const corsOptions = {
