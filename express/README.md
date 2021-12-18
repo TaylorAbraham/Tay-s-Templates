@@ -12,5 +12,9 @@ npm i -D typescript tsc-watch eslint @typescript-eslint/parser @typescript-eslin
 ### Optional Dependencies
 
 ```
-npm i -S dotenv node-fetch firebase
+npm i -S dotenv node-fetch@2.0 firebase
 ```
+
+## Sources
+
+`tsconfig.json` based on https://github.com/metachris/typescript-boilerplate/blob/master/tsconfig.json

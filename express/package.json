@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node ./dist/server.js\""
+    "start": "tsc-watch --onSuccess \"node ./dist/tsc/server.js\""
   },
   "engines": {
     "node": "16.x"
