@@ -1,10 +1,11 @@
 import express from 'express';
+import dotenv from 'dotenv';
 import morgan from 'morgan';
 import cors from 'cors';
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
-require('dotenv').config();
+dotenv.config();
 
 /* SECTION: CORS */
 const allowedOrigins = ['https://localhost:8080'];
