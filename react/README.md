@@ -13,9 +13,14 @@ npx create-react-app MyApp --template typescript
 ### Mandatory Dependencies
 
 ```
-npm i -D sass tailwindcss
+npm i -S react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material fontsource-roboto node-fetch
+npm i -D sass eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
-## Other Setup
+Note: `@emotion/react` and `@emotion/styled` are currently dependencies of `@mui/material`. Consult [MUI's installation page](https://mui.com/getting-started/installation/) to verify that this is still the case.
 
-[Configure Tailwind CSS](https://tailwindcss.com/docs/installation)
+### Optional Dependencies
+
+```
+npm i -S @feedback-fish/react
+```
