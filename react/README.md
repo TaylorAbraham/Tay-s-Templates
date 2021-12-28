@@ -13,7 +13,7 @@ npx create-react-app MyApp --template typescript
 ### Mandatory Dependencies
 
 ```
-npm i -S react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material fontsource-roboto node-fetch
+npm i -S react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material fontsource-roboto
 npm i -D sass eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
