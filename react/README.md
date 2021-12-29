@@ -24,3 +24,7 @@ Note: `@emotion/react` and `@emotion/styled` are currently dependencies of `@mui
 ```
 npm i -S @feedback-fish/react
 ```
+
+## Hosting
+
+[Netlify](https://www.netlify.com/) is a great option for free hosting without the startup delay of Heroku.
