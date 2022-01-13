@@ -27,6 +27,7 @@ module.exports = {
   root: true,
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
+    'no-debugger': 'warn',
     // Allow unused variables if they are prefixed with an underscore
     '@typescript-eslint/no-unused-vars': [
       'warn',
@@ -36,12 +37,6 @@ module.exports = {
         caughtErrorsIgnorePattern: '^_',
       },
     ],
-    '@typescript-eslint/restrict-template-expressions': [
-      'error',
-      {
-        // Allow expressions like className=`class1 ${isActive && 'class1__active'}`
-        allowBoolean: true,
-      },
-    ],
+    '@typescript-eslint/restrict-template-expressions': 0,
   },
 };
