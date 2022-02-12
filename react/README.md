@@ -28,3 +28,5 @@ npm i -S @feedback-fish/react
 ## Hosting
 
 [Netlify](https://www.netlify.com/) is a great option for free hosting without the startup delay of Heroku.
+
+Also refer to: https://dev.to/rajeshroyal/page-not-found-error-on-netlify-reactjs-react-router-solved-43oa
