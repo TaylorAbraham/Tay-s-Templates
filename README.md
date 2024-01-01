@@ -1,6 +1,6 @@
 # Tay's Templates
 
-A collection of boilerplate that I use for all my projects
+A collection of boilerplate that I use for my projects
 
 ## How to Use
 
